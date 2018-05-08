@@ -1,2 +1,8 @@
 # nlsaahBiomarkerClassification
-University project classifying biomarkers using longitudinal student data
+University project classifying biomarkers using longitudinal student data. This was a group project. I was responsible primarily for the data cleaning and merging, the oversampling-based models as well as writing the final report.
+
+This was my first major machine learning classification task, and I learned a lot. The dataset is high-dimensional, complex in general structure and overall difficult to work with. 
+
+Retrospectively, there are a lot of things I would have done differently, and I'd like to come back to this dataset as it is challenging but fun to work with.
+
+Ovesampling is still the best approach, I think, but I'd change up the scripting to deal with the cross-validation more cleanly. Additionally, I'd prefer to use SMOTE when re-analyzing. Random Forests were, I think, a decent choice in terms of getting a sense for how lively the data was. However, I'd like to have a go at the data again with some more advanced classifiers. I'm particularly interested to see how some kernel-based SVMs would perform on this data. I think rule mining would also be interesting to pursue, particularly in terms of easy visualization wins in a dataset that really needs visual guides to navigate its complexity. An actual rule-mining tool would be an excellent project goal. Finally, while we certainly were intentional about pre-processing the data, there are a few things we missed. I would like to re-approach the pre-processing and do a better job of encoding non-responses to survey questions. Ideally, would probably replace by distribution within racial and socioeconomic subclasses. Additionally, I'd like to pay more attention to standardizing/normalizing some/all of the features and comparing the results.
